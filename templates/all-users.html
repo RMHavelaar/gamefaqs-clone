@@ -20,15 +20,16 @@
           </div>
         </div>
         <h1 class="user-list-title">View all users</h1>
-        <div class="user-list-container">
-          <br />
+
+        <div class="all-user-list-container">
+
           {% for users in all_users %}
-          <div>
-            <a class="all-users" href="/user/{{users.id}}">
-              {{users.username}}
-            </a>
-          </div>
+          <p>
+            <a class="all-users" href="/user/{{users.id}}">{{users.username}}</a>
+          </p>
+
           {% endfor %}
+
         </div>
       </div>
     </div>

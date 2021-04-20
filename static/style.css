@@ -18,7 +18,6 @@
 
 .content {
   background-color: var(--global-color-background) !important;
-
 }
 
 html,
@@ -27,7 +26,6 @@ body {
   margin: 0;
   padding: 0;
   background: var(--global-color-background);
-
 }
 
 a:hover {
@@ -39,7 +37,6 @@ header {
   background-image: url(/static/assets/images/mtndew.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 h1,
@@ -551,13 +548,17 @@ form {
 .all-users {
   color: var(--global-color-yellow);
   font-size: 3rem;
+  justify-content: center;
 }
 
 .user-list-container {
-  margin: 0px;
   text-align: center;
 }
-
+.all-user-list-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
 .online-users {
   font-size: 4rem;
   color: var(--global-color-background);
